@@ -1,0 +1,261 @@
+SampleCode,plate,area mm^2,color,temp,pH,LightDepth,OxyRate nmol/mm2/min
+plateB_HF_7.6_10,plateB,1.628,HF,23,7.6,10m,2.552004154
+plateB_NF_7.6_1,plateB,2.73,NF,23,7.6,10m,2.153453888
+plateB_HF_7.6_11,plateB,2.5,HF,23,7.6,10m,2.149815012
+plateB_HF_7.6_4,plateB,1.487,HF,23,7.6,10m,2.062081215
+plateB_HF_7.6_10,plateB,1.628,HF,23,7.6,10m,2.041603323
+plateB_HF_7.6_5,plateB,2.739,HF,23,7.6,10m,1.987697959
+plateB_NF_7.6_2,plateB,1.923,NF,23,7.6,10m,1.974201507
+plateB_HF_7.6_8,plateB,3.131,HF,23,7.6,10m,1.917845926
+plateB_HF_7.6_9,plateB,2.195,HF,23,7.6,10m,1.747582317
+plateB_NF_7.6_1,plateB,2.730,NF,23,7.6,10m,1.72276311
+plateB_HF_7.6_11,plateB,2.500,HF,23,7.6,10m,1.71985201
+plateB_HF_7.6_4,plateB,1.487,HF,23,7.6,10m,1.649664972
+plateB_HF_7.6_14,plateB,2.758,HF,23,7.6,10m,1.608390355
+plateB_HF_7.6_7,plateB,2.62,HF,23,7.6,10m,1.607585617
+plateB_HF_7.6_5,plateB,2.739,HF,23,7.6,10m,1.590158367
+plateB_HF_7.6_8,plateB,3.131,HF,23,7.6,10m,1.534276741
+plateB_HF_7.6_12,plateB,3.438,HF,23,7.6,10m,1.431184869
+plateB_HF_7.6_9,plateB,2.195,HF,23,7.6,10m,1.398065853
+plateC_NF_7.6_4,plateC,3.087,NF,23,7.6,10m,1.316164544
+plateB_HF_7.6_14,plateB,2.758,HF,23,7.6,10m,1.286712284
+plateB_HF_7.6_7,plateB,2.620,HF,23,7.6,10m,1.286068493
+plateB_HF_7.6_13,plateB,2.535,HF,23,7.6,10m,1.260929965
+plateB_HF_7.6_1,plateB,2.494,HF,23,7.6,10m,1.221805031
+plateC_NF_7.6_1,plateC,1.584,NF,23,7.6,10m,1.190462151
+plateB_HF_7.6_12,plateB,3.438,HF,23,7.6,10m,1.144947895
+plateB_HF_7.6_6,plateB,2.291,HF,23,7.6,10m,1.094921318
+plateB_HF_7.6_13,plateB,2.535,HF,23,7.6,10m,1.008743972
+plateB_HF_7.6_1,plateB,2.494,HF,23,7.6,10m,0.977444025
+plateC_NF_7.6_1,plateC,1.584,NF,23,7.6,10m,0.952369721
+plateB_HF_7.6_6,plateB,2.291,HF,23,7.6,10m,0.875937054
+plateC_NF_7.6_3,plateC,4.06,NF,23,7.6,10m,0.819065908
+plateB_NF_7.6_3,plateB,2.887,NF,23,7.6,10m,0.800425765
+plateC_NF_7.6_2,plateC,3.749,NF,23,7.6,10m,0.729175044
+plateB_HF_7.6_2,plateB,2.398,HF,23,7.6,10m,0.694833175
+plateC_NF_7.6_3,plateC,4.060,NF,23,7.6,10m,0.655252726
+plateB_HF_7.6_3,plateB,2.039,HF,23,7.6,10m,0.634119688
+plateC_NF_7.6_2,plateC,3.749,NF,23,7.6,10m,0.583340036
+plateB_HF_7.6_2,plateB,2.398,HF,23,7.6,10m,0.55586654
+plateB_HF_7.6_3,plateB,2.039,HF,23,7.6,10m,0.507295751
+plateA_HF_7.8_12,plateA,1.115,HF,23,7.8,10m,2.359947414
+plateA_NF_7.8_4,plateA,1.944,NF,23,7.8,10m,2.037688965
+plateA_NF_7.8_4,plateA,1.944,NF,23,7.8,10m,1.630151172
+plateB_NF_7.8_3,plateB,1.956,NF,23,7.8,10m,1.618400648
+plateA_HF_7.8_9,plateA,1.651,HF,23,7.8,10m,1.337967948
+plateB_NF_7.8_3,plateB,1.956,NF,23,7.8,10m,1.294720519
+plateA_NF_7.8_2,plateA,1.411,NF,23,7.8,10m,1.294094976
+plateA_HF_7.8_11,plateA,1.578,HF,23,7.8,10m,1.238879041
+plateA_NF_7.8_6,plateA,1.552,NF,23,7.8,10m,1.236748175
+plateA_NF_7.8_5,plateA,1.639,NF,23,7.8,10m,1.079871739
+plateB_NF_7.8_2,plateB,1.75,NF,23,7.8,10m,1.07597856
+plateA_HF_7.8_9,plateA,1.651,HF,23,7.8,10m,1.070374359
+plateA_NF_7.8_2,plateA,1.411,NF,23,7.8,10m,1.035275981
+plateA_HF_7.8_11,plateA,1.578,HF,23,7.8,10m,0.991103233
+plateA_NF_7.8_6,plateA,1.552,NF,23,7.8,10m,0.98939854
+plateA_NF_7.8_1,plateA,4.31,NF,23,7.8,10m,0.914154822
+plateA_HF_7.8_5,plateA,1.619,HF,23,7.8,10m,0.879212659
+plateA_NF_7.8_5,plateA,1.639,NF,23,7.8,10m,0.863897391
+plateB_NF_7.8_2,plateB,1.750,NF,23,7.8,10m,0.860782848
+plateA_HF_7.8_13,plateA,1.668,HF,23,7.8,10m,0.772504382
+plateA_HF_7.8_14,plateA,1.622,HF,23,7.8,10m,0.744255258
+plateA_NF_7.8_1,plateA,4.310,NF,23,7.8,10m,0.731323858
+plateA_HF_7.8_5,plateA,1.619,HF,23,7.8,10m,0.703370127
+plateB_NF_7.8_1,plateB,3.396,NF,23,7.8,10m,0.677556935
+plateA_HF_7.8_10,plateA,1.455,HF,23,7.8,10m,0.647195833
+plateA_HF_7.8_13,plateA,1.668,HF,23,7.8,10m,0.618003506
+plateA_HF_7.8_8,plateA,2.017,HF,23,7.8,10m,0.604662862
+plateA_HF_7.8_14,plateA,1.622,HF,23,7.8,10m,0.595404206
+plateB_NF_7.8_1,plateB,3.396,NF,23,7.8,10m,0.542045548
+plateA_HF_7.8_3,plateA,2.106,HF,23,7.8,10m,0.537466476
+plateA_HF_7.8_10,plateA,1.455,HF,23,7.8,10m,0.517756666
+plateA_HF_7.8_4,plateA,3.236,HF,23,7.8,10m,0.490312299
+plateA_HF_7.8_8,plateA,2.017,HF,23,7.8,10m,0.48373029
+plateA_HF_7.8_3,plateA,2.106,HF,23,7.8,10m,0.429973181
+plateA_HF_7.8_4,plateA,3.236,HF,23,7.8,10m,0.392249839
+plateA_NF_7.8_3,plateA,3.405,NF,23,7.8,10m,0.315013987
+plateA_HF_7.8_1,plateA,4.916,HF,23,7.8,10m,0.307470882
+plateA_HF_7.8_6,plateA,1.297,HF,23,7.8,10m,0.282299145
+plateA_NF_7.8_3,plateA,3.405,NF,23,7.8,10m,0.252011189
+plateA_HF_7.8_1,plateA,4.916,HF,23,7.8,10m,0.245976705
+plateA_HF_7.8_6,plateA,1.297,HF,23,7.8,10m,0.225839316
+plateA_HF_7.8_2,plateA,2.938,HF,23,7.8,10m,0.200006371
+plateA_HF_7.8_2,plateA,2.938,HF,23,7.8,10m,0.160005096
+plateA_HF_7.8_7,plateA,2.109,HF,23,7.8,10m,0.027493383
+plateA_HF_7.8_7,plateA,2.109,HF,23,7.8,10m,0.021994707
+plateD_NF_8.2_7,plateD,0.521,NF,23,8.2,10m,5.267694997
+plateD_NF_8.2_7,plateD,0.521,NF,23,8.2,10m,4.2142
+plateD_NF_8.2_3,plateD,1.689,NF,23,8.2,10m,3.014369385
+med_Flu_polyp,plate 1,0.333,PF,23,8.2,10m,2.867802693
+plateD_NF_8.2_2,plateD,1.301,NF,23,8.2,10m,2.622935585
+plateD_NF_8.2_3,plateD,1.689,NF,23,8.2,10m,2.411495508
+plateD_NF_8.2_2,plateD,1.301,NF,23,8.2,10m,2.098348468
+plateC_HF_8.2_7,plateC,1.913,HF,23,8.2,10m,1.725445625
+plateC_HF_8.2_8,plateC,1.411,HF,23,8.2,10m,1.662655881
+plateE_HF_control_6,plateE,1.202,HF,23,8.2,10m,1.6257
+high_Flu_polyp,plate 1,0.647,HF,23,8.2,10m,1.620603572
+plateC_HF_8.2_2,plateC,1.259,HF,23,8.2,10m,1.585159734
+plateC_HF_8.2_13,plateC,3.246,HF,23,8.2,10m,1.512487326
+med_Flu_polyp_5,plate 1,1.003,PF,23,8.2,10m,1.509365719
+plateC_HF_8.2_14,plateC,2.17,HF,23,8.2,10m,1.464400666
+plateD_NF_8.2_5,plateD,1.115,NF,23,8.2,10m,1.443727496
+plateD_NF_8.2_8,plateD,1.263,NF,23,8.2,10m,1.399497436
+med_Flu_polyp,plate 1,0.617,PF,23,8.2,10m,1.394723259
+plateC_HF_8.2_7,plateC,1.913,HF,23,8.2,10m,1.3803565
+med_Flu_polyp,plate 1,0.834,PF,23,8.2,10m,1.364860862
+high_Flu_polyp,plate 1,0.611,HF,23,8.2,10m,1.344343387
+plateD_NF_8.2_4,plateD,1.227,NF,23,8.2,10m,1.334579564
+med_Flu_polyp,plate 1,1.587,PF,23,8.2,10m,1.331672195
+plateC_HF_8.2_8,plateC,1.411,HF,23,8.2,10m,1.330124705
+plateE_HF_control_6,plateE,1.202,HF,23,8.2,10m,1.3006
+plateA_HF_27C_3,plateA,3.812,HF,23,8.2,10m,1.3006
+plateE_HF_control_9,plateE,2.048,HF,23,8.2,10m,1.2901
+plateC_HF_8.2_2,plateC,1.259,HF,23,8.2,10m,1.268127787
+plateE_HF_control_7,plateE,1.373,HF,23,8.2,10m,1.2602
+med_Flu_polyp_1,plate 1,0.684,PF,23,8.2,10m,1.246431061
+plateC_HF_8.2_1,plateC,1.861,HF,23,8.2,10m,1.229636027
+plateC_HF_8.2_13,plateC,3.246,HF,23,8.2,10m,1.209989861
+plateE_HF_control_4,plateE,1.684,HF,23,8.2,10m,1.2005
+high_Flu_polyp,plate 1,0.939,HF,23,8.2,10m,1.191136116
+plateC_HF_8.2_14,plateC,2.170,HF,23,8.2,10m,1.171520533
+plateD_NF_8.2_5,plateD,1.115,NF,23,8.2,10m,1.154981997
+plateD_NF_8.2_1,plateD,1.665,NF,23,8.2,10m,1.132451164
+plateD_NF_8.2_8,plateD,1.263,NF,23,8.2,10m,1.119597949
+plateD_NF_8.2_6,plateD,2.434,NF,23,8.2,10m,1.112170345
+med_Flu_polyp,plate 1,0.784,PF,23,8.2,10m,1.110603728
+plateD_NF_8.2_4,plateD,1.227,NF,23,8.2,10m,1.067663651
+plateC_HF_8.2_10,plateC,1.004,HF,23,8.2,10m,1.057360491
+plate2_96e,plate 2,2.930,NF,23,8.2,10m,1.0562
+high_Flu_polyp,plate 1,0.761,HF,23,8.2,10m,1.043162105
+plateF_NF_control_2,plateF,1.971,HF,23,8.2,10m,1.0321
+plateE_HF_control_9,plateE,2.048,NF,23,8.2,10m,1.0321
+med_Flu_polyp_3,plate 1,0.911,PF,23,8.2,10m,1.031251556
+plateC_HF_8.2_7,plateC,3.214,HF,23,8.2,10m,1.026999839
+plateE_HF_control_15,plateE,2.273,HF,23,8.2,10m,1.0253
+plateE_HF_control_7,plateE,1.373,HF,23,8.2,10m,1.0081
+plateA_HF_27C_10,plateA,3.030,HF,23,8.2,10m,1.0081
+plateC_HF_8.2_11,plateC,3.993,HF,23,8.2,10m,1.00187833
+plateC_HF_8.2_1,plateC,1.861,HF,23,8.2,10m,0.983708821
+plateE_NF_control_1,plateE,1.603,NF,23,8.2,10m,0.9639
+plateE_HF_control_4,plateE,1.684,NF,23,8.2,10m,0.9604
+plateF_NF_control_7,plateF,1.971,HF,23,8.2,10m,0.9604
+med_Flu_polyp,plate 1,0.514,PF,23,8.2,10m,0.955430468
+plate4_42a,plate 4,1.910,NF,23,8.2,10m,0.954117778
+plateE_HF_control_10,plateE,4.181,HF,23,8.2,10m,0.9333
+med_Flu_polyp_4,plate 1,0.982,PF,23,8.2,10m,0.907070144
+plateD_NF_8.2_1,plateD,1.665,NF,23,8.2,10m,0.905960931
+plateE_HF_control_13,plateE,2.162,HF,23,8.2,10m,0.9018
+plateD_NF_8.2_6,plateD,2.434,NF,23,8.2,10m,0.889736276
+plate4_34a,plate 4,1.703,HF,23,8.2,10m,0.886746685
+plateC_HF_8.2_6,plateC,2.916,HF,23,8.2,10m,0.863780284
+med_Flu_polyp,plate 1,1.230,PF,23,8.2,10m,0.858256631
+plateC_HF_8.2_10,plateC,1.004,HF,23,8.2,10m,0.845888393
+plateC_HF_8.2_7,plateC,3.214,HF,23,8.2,10m,0.821599871
+plateA_HF_27C_1,plateA,1.292,HF,23,8.2,10m,0.8202
+plateE_HF_control_15,plateE,2.273,HF,23,8.2,10m,0.8202
+plateE_HF_control_8,plateE,3.690,HF,23,8.2,10m,0.8139
+plateE_HF_control_3,plateE,1.621,HF,23,8.2,10m,0.8032
+plateC_HF_8.2_11,plateC,3.993,HF,23,8.2,10m,0.801502664
+high_Flu_polyp,plate 1,0.529,HF,23,8.2,10m,0.800125567
+high_Flu_polyp,plate 1,1.141,HF,23,8.2,10m,0.784896955
+plateD_NF_8.2_10,plateD,2.767,NF,23,8.2,10m,0.773673047
+plateE_NF_control_1,plateE,1.603,HF,23,8.2,10m,0.7711
+plateA_HF_27C_2,plateA,6.021,NF,23,8.2,10m,0.771086707
+plateE_NF_control_2,plateE,1.833,NF,23,8.2,10m,0.7475
+plateF_NF_control_5,plateF,1.623,HF,23,8.2,10m,0.7466
+plateE_HF_control_10,plateE,4.181,HF,23,8.2,10m,0.7466
+plateE_HF_control_11,plateE,2.271,HF,23,8.2,10m,0.7319
+plate2_4c,plate 2,2.422,HF,23,8.2,10m,0.727267515
+plateE_HF_control_13,plateE,2.162,NF,23,8.2,10m,0.7214
+plateF_NF_control_1,plateF,2.205,HF,23,8.2,10m,0.7214
+plate4_41c,plate 4,4.331,PF,23,8.2,10m,0.705111364
+plateC_HF_8.2_6,plateC,2.916,HF,23,8.2,10m,0.691024227
+plateE_HF_control_1,plateE,2.118,HF,23,8.2,10m,0.6823
+plateE_HF_control_8,plateE,3.690,NF,23,8.2,10m,0.6511
+plateE_HF_control_7,plateE,1.373,HF,23,8.2,10m,0.6426
+plateE_HF_control_3,plateE,1.621,NF,23,8.2,10m,0.6426
+plate4_41a,plate 4,2.895,PF,23,8.2,10m,0.638675245
+plateD_NF_8.2_9,plateD,3.367,NF,23,8.2,10m,0.628967328
+plateC_HF_8.2_5,plateC,4.105,HF,23,8.2,10m,0.620949992
+plateD_NF_8.2_10,plateD,2.767,NF,23,8.2,10m,0.618938438
+plate1_38e,plate 1,2.474,PF,23,8.2,10m,0.60021799
+plateC_HF_8.2_12,plateC,5.988,HF,23,8.2,10m,0.598889216
+plateE_NF_control_2,plateE,1.833,HF,23,8.2,10m,0.5980
+plateA_HF_27C_9,plateA,1.890,NF,23,8.2,10m,0.5980
+plateE_HF_control_11,plateE,2.271,HF,23,8.2,10m,0.5855
+plateA_HF_27C_7,plateA,6.002,HF,23,8.2,10m,0.585507239
+med_Flu_polyp_7,plate 1,0.681,PF,23,8.2,10m,0.574239312
+plateC_HF_8.2_1,plateC,4.169,HF,23,8.2,10m,0.548897252
+plateA_HF_27C_8,plateA,1.325,HF,23,8.2,10m,0.5459
+plateE_HF_control_1,plateE,2.118,HF,23,8.2,10m,0.5459
+plate2_4b,plate 2,10.467,HF,23,8.2,10m,0.53615193
+plate4_41b,plate 4,4.180,PF,23,8.2,10m,0.532562667
+plateD_NF_8.2_9,plateD,3.367,NF,23,8.2,10m,0.503173862
+plateC_HF_8.2_5,plateC,4.105,HF,23,8.2,10m,0.496759994
+med_Flu_polyp,plate 1,1.157,PF,23,8.2,10m,0.493558561
+plate2_5a,plate 2,2.966,PF,23,8.2,10m,0.480044918
+plateC_HF_8.2_12,plateC,5.988,HF,23,8.2,10m,0.479111373
+med_Flu_polyp,plate 1,0.693,PF,23,8.2,10m,0.477353385
+plateC_HF_8.2_4,plateC,3.461,HF,23,8.2,10m,0.472343087
+plateC_HF_8.2_3,plateC,3.147,HF,23,8.2,10m,0.462068198
+plateC_HF_8.2_1,plateC,4.169,HF,23,8.2,10m,0.439117802
+plate1_97a,plate 1,2.838,HF,23,8.2,10m,0.437272762
+plate5_41f,plate 5,4.665,PF,23,8.2,10m,0.390427101
+plateC_HF_8.2_4,plateC,3.461,HF,23,8.2,10m,0.37787447
+plateC_HF_8.2_3,plateC,3.147,HF,23,8.2,10m,0.369654558
+plate1_38c,plate 1,4.799,PF,23,8.2,10m,0.366447472
+plateE_HF_control_5,plateE,2.182,HF,23,8.2,10m,0.3587
+med_Flu_polyp,plate 1,1.385,PF,23,8.2,10m,0.336041533
+med_Flu_polyp,plate 1,0.596,PF,23,8.2,10m,0.335438959
+med_Flu_polyp_8,plate 1,0.771,PF,23,8.2,10m,0.319012201
+plateF_NF_control_5,plateF,1.623,NF,23,8.2,10m,0.3059
+plateE_HF_control_5,plateE,2.182,HF,23,8.2,10m,0.2869
+plateF_NF_control_4,plateF,3.582,HF,23,8.2,10m,0.2869
+plate1_7d,plate 1,4.698,HF,23,8.2,10m,0.248127126
+plate1_9b,plate 1,5.596,NF,23,8.2,10m,0.245715747
+plateF_NF_control_5,plateF,1.623,HF,23,8.2,10m,0.2447
+plateB_NF_27C_13,plateB,5.307,NF,23,8.2,10m,0.244685644
+plateF_NF_control_7,plateF,1.971,NF,23,8.2,10m,0.2349
+plate5_41d,plate 5,3.806,PF,23,8.2,10m,0.227970737
+plate1_38b,plate 1,2.352,PF,23,8.2,10m,0.208062037
+plateF_NF_control_1,plateF,2.205,NF,23,8.2,10m,0.1890
+plateF_NF_control_7,plateF,1.971,HF,23,8.2,10m,0.1879
+plateA_HF_27C_6,plateA,2.514,NF,23,8.2,10m,0.1879
+plate2_99a,plate 2,4.548,NF,23,8.2,10m,0.171618923
+plate4_35a,plate 4,4.249,PF,23,8.2,10m,0.17035588
+plateF_NF_control_3,plateF,2.351,NF,23,8.2,10m,0.1588
+plateA_HF_27C_1,plateA,1.292,NF,23,8.2,10m,0.1512
+plateF_NF_control_1,plateF,2.205,HF,23,8.2,10m,0.1512
+plate2_4d,plate 2,5.016,HF,23,8.2,10m,0.133106486
+plate1_38d,plate 1,3.622,PF,23,8.2,10m,0.130141245
+plateF_NF_control_3,plateF,2.351,HF,23,8.2,10m,0.1270
+plateB_NF_27C_3,plateB,3.536,NF,23,8.2,10m,0.1270
+plateE_HF_control_2,plateE,1.180,HF,23,8.2,10m,0.1252
+high_Flu_polyp,plate 1,0.958,HF,23,8.2,10m,0.122043797
+plate1_36a,plate 1,4.611,NF,23,8.2,10m,0.113460242
+plate5_41e,plate 5,8.723,PF,23,8.2,10m,0.111566957
+plate1_38a,plate 1,2.885,PF,23,8.2,10m,0.109608566
+plate1_38f,plate 1,2.925,PF,23,8.2,10m,0.102183258
+plateE_HF_control_2,plateE,1.180,HF,23,8.2,10m,0.1002
+plateA_HF_27C_4,plateA,4.247,HF,23,8.2,10m,0.1002
+plate4_35b,plate 4,3.344,PF,23,8.2,10m,0.099393135
+plate1_7b,plate 1,5.183,HF,23,8.2,10m,0.078445464
+plate1_9a,plate 1,5.535,NF,23,8.2,10m,0.036522964
+plate1_7c,plate 1,5.047,HF,23,8.2,10m,0.032041253
+plateE_HF_control_14,plateE,2.189,HF,23,8.2,10m,0.0313
+plate2_96c,plate 2,4.624,NF,23,8.2,10m,0.028813599
+plateE_HF_control_14,plateE,2.189,NF,23,8.2,10m,0.0250
+plateF_NF_control_3,plateF,2.351,HF,23,8.2,10m,0.0250
+plate1_3a,plate 1,2.212,NF,23,8.2,10m,0.024418531
+plate2_96d,plate 2,5.925,NF,23,8.2,10m,0.016802198
+plate2_96b,plate 2,2.478,NF,23,8.2,10m,0.016079711
+plate2_5f,plate 2,4.111,PF,23,8.2,10m,0.0118
+plate1_6b,plate 1,3.675,NF,23,8.2,10m,0.010059366
+plate2_5d,plate 2,4.955,PF,23,8.2,10m,0.005922256
+plate2_5e,plate 2,5.076,PF,23,8.2,10m,0.004878325
+med_Flu_polyp,plate 1,0.871,PF,23,8.2,10m,0.000106077
+plateA_HF_7.8_12,plateA,1.115,HF,23,7.8,10m ,1.887957931
+plate2_96e,plate 2,2.930,NF,23,8.2,10m ,1.0562
+plateB_NF_7.6_2,plateB,1.923,NF,23,7.6,10m ,1.579361205
+plateC_NF_7.6_4,plateC,3.087,NF,23,7.6,10m ,1.052931635
+plateB_NF_7.6_3,plateB,2.887,NF,23,7.6,10m ,0.640340612

@@ -1,0 +1,104 @@
+// Comprehensive Coral Planula Morphometrics (v3.4 - Fixed Crash)
+// Features: Live-saving, Auto-Resume, and Stable ROI Overlay Management
+
+macro "Compile Larvae Metrics Live View" {
+    // 1. Select master workspace target paths
+    inputDir = getDirectory("Select Folder Containing Larvae .oir Files");
+    if (lengthOf(inputDir) == 0) exit();
+    
+    outputDir = getDirectory("Select Folder for Proof Images and CSV Results");
+    if (lengthOf(outputDir) == 0) exit();
+
+    list = getFileList(inputDir);
+    outputFile = outputDir + "Larvae_Morphometrics_Report.csv";
+    
+    // 2. Initialize or verify your CSV database file
+    if (!File.exists(outputFile)) {
+        File.saveString("File_Name,Ecto_L1,Ecto_L2,Ecto_L3,Ecto_L4,Ecto_L5,Ecto_Avg,Total_Area_um2,Gastro_Cavity_Area_um2\n", outputFile);
+    }
+    
+    run("Clear Results");
+    
+    // Launch Live Panel Viewer
+    logWindowTitle = "[Live Larvae Morphometrics Log]";
+    if (isOpen("Live Larvae Morphometrics Log")) {
+        print(logWindowTitle, "\\Update:"); 
+    } else {
+        run("Text Window...", "name=" + logWindowTitle + " width=90 height=20 menu");
+    }
+    
+    // Sync existing data to log
+    historicalText = File.openAsString(outputFile);
+    print(logWindowTitle, historicalText);
+    
+    for (i = 0; i < list.length; i++) {
+        if (endsWith(list[i], ".oir") || endsWith(list[i], ".OIR")) {
+            
+            // Auto-Resume Verification
+            existingDatabaseText = File.openAsString(outputFile);
+            if (indexOf(existingDatabaseText, list[i]) >= 0) continue; 
+            
+            // Open File
+            run("Bio-Formats Importer", "open=[" + inputDir + list[i] + "] autoscale color_mode=Default view=Hyperstack stack_order=XYCZT");
+            imgName = getTitle();
+            
+            run("ROI Manager...");
+            roiManager("reset");
+            
+            // --- PART A: ECTODERM LINES ---
+            ectLengths = newArray(5);
+            sumEct = 0;
+            setTool("line"); 
+            for (j = 0; j < 5; j++) {
+                waitForUser("Ectoderm Line " + (j+1) + "/5", "Draw line #" + (j+1) + " across the outer ECTODERM.\nClick OK.");
+                run("Measure");
+                ectLengths[j] = getResult("Length", nResults - 1);
+                sumEct += ectLengths[j];
+                roiManager("Add");
+                roiManager("Select", roiManager("count") - 1);
+                roiManager("Rename", "Ecto_L" + (j+1));
+            }
+            avgEct = sumEct / 5;
+            
+            // --- PART B: TOTAL OUTER BOUNDARY ---
+            setTool("polygon");
+            waitForUser("Total Outer Boundary", "Trace the complete external perimeter.\nDouble-click to close. Click OK.");
+            run("Measure");
+            totalArea = getResult("Area", nResults - 1);
+            roiManager("Add");
+            
+            // FIX: Use valid command to hide overlays
+            roiManager("show none"); 
+            run("Select None");
+            
+            // --- PART C: GASTROVASCULAR CAVITY ---
+            setTool("polygon");
+            waitForUser("Gastrovascular Cavity", "Trace the internal cavity border.\nDouble-click to close. Click OK.");
+            run("Measure");
+            cavityArea = getResult("Area", nResults - 1);
+            roiManager("Add");
+            
+            run("Select None");
+            roiManager("deselect");
+            
+            // --- PART D: SAVE PROOF ---
+            roiManager("Show All with labels");
+            run("Flatten");
+            
+            cleanBaseName = replace(list[i], ".oir", "");
+            cleanBaseName = replace(cleanBaseName, ".OIR", "");
+            saveAs("Jpeg", outputDir + cleanBaseName + "_Proof.jpg");
+            close(); 
+            
+            // --- PART E: APPEND DATA ---
+            rowString = list[i] + "," + ectLengths[0] + "," + ectLengths[1] + "," + ectLengths[2] + "," + ectLengths[3] + "," + ectLengths[4] + "," + d2s(avgEct,4) + "," + d2s(totalArea,2) + "," + d2s(cavityArea,2);
+            File.append(rowString + "\n", outputFile);
+            print(logWindowTitle, rowString);
+            
+            run("Clear Results");
+            close();
+        }
+    }
+    roiManager("reset");
+    showMessage("Success!", "Session Complete.");
+}
