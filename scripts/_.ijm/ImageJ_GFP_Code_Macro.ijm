@@ -1,4 +1,4 @@
-// GFP_Summary_Per_File_FIXED.ijm
+//ImageJ_GFP_Code_Macro.ijm
 // One summary row per ND2 file: File, Area, Mean, IntDen
 
 inputDir = getDirectory("Choose folder with .nd2 files");
