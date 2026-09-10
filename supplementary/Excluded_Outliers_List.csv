@@ -1,0 +1,32 @@
+Metric,Treatment,Morph,Value
+Settlement,Ambient,HF,0.0
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",NF,5.267694997
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",NF,4.2142
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",NF,3.014369385
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",NF,2.622935585
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",HF,0.886746685
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",HF,0.863780284
+Respiration,"Ambient 
+(23°C, pH 8.2, 10m)",NF,0.127
+Respiration,pH 7.6,HF,2.552004154
+Respiration,pH 7.6,NF,2.153453888
+Respiration,pH 7.6,HF,2.149815012
+Respiration,pH 7.6,HF,2.041603323
+Respiration,pH 7.8,HF,2.359947414
+Respiration,pH 7.8,HF,0.647195833
+Respiration,pH 7.8,HF,0.618003506
+Respiration,pH 7.8,HF,1.887957931
+Respiration,32°C,HF,0.898
+Respiration,32°C,NF,0.8935
+Respiration,32°C,NF,0.3695
+Respiration,Dark,NF,3.1079
+Respiration,50m,HF,0.2401
+Symbiont Density,Dark,HF,0.01690821256126482
+Symbiont Density,"Ambient 
+(23°C, pH 8.2, 10m)",HF,0.041893998441153546
