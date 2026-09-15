@@ -1,32 +1,137 @@
-Metric,Treatment,Morph,Value
-Settlement,Ambient,HF,0.0
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",NF,5.267694997
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",NF,4.2142
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",NF,3.014369385
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",NF,2.622935585
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",HF,0.886746685
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",HF,0.863780284
-Respiration,"Ambient 
-(23째C, pH 8.2, 10m)",NF,0.127
-Respiration,pH 7.6,HF,2.552004154
-Respiration,pH 7.6,NF,2.153453888
-Respiration,pH 7.6,HF,2.149815012
-Respiration,pH 7.6,HF,2.041603323
-Respiration,pH 7.8,HF,2.359947414
-Respiration,pH 7.8,HF,0.647195833
-Respiration,pH 7.8,HF,0.618003506
-Respiration,pH 7.8,HF,1.887957931
-Respiration,32째C,HF,0.898
-Respiration,32째C,NF,0.8935
-Respiration,32째C,NF,0.3695
-Respiration,Dark,NF,3.1079
-Respiration,50m,HF,0.2401
-Symbiont Density,Dark,HF,0.01690821256126482
-Symbiont Density,"Ambient 
-(23째C, pH 8.2, 10m)",HF,0.041893998441153546
+index,Metric,stage,Treatment,Morph,Value,Reason
+1,Lipid Mobilization Index,Pre Settlement,Planulae,HF,0.3546,1.5IQR Outlier
+2,Lipid Mobilization Index,Pre Settlement,Planulae,NF,0.4319,1.5IQR Outlier
+3,Planulae Volume (Aspect Ratio),Pre Settlement,Planulae,HF,1.78E+00,Removed as Aspect Ratio < 2.5
+4,Planulae Volume (Aspect Ratio),Pre Settlement,Planulae,HF,2.25E+00,Removed as Aspect Ratio < 2.5
+5,Planulae Volume (Aspect Ratio),Pre Settlement,Planulae,NF,2.25E+00,Removed as Aspect Ratio < 2.5
+6,Planulae Volume (Aspect Ratio),Pre Settlement,Planulae,NF,1.65E+00,Removed as Aspect Ratio < 2.5
+7,Planulae Volume,Pre Settlement,Planulae,HF,4.59E-01,1.5IQR Outlier
+8,Planulae Volume,Pre Settlement,Planulae,HF,4.80E-01,1.5IQR Outlier
+9,Planulae Volume,Pre Settlement,Planulae,HF,4.76E-01,1.5IQR Outlier
+10,Planulae Volume,Pre Settlement,Planulae,HF,4.61E-01,1.5IQR Outlier
+11,Planulae Volume,Pre Settlement,Planulae,HF,1.60E-01,1.5IQR Outlier
+12,Planulae Volume,Pre Settlement,Planulae,HF,1.49E-01,1.5IQR Outlier
+13,Planulae Volume,Pre Settlement,Planulae,HF,5.30E-01,1.5IQR Outlier
+14,Planulae Volume,Pre Settlement,Planulae,HF,4.53E-01,1.5IQR Outlier
+15,Planulae Volume,Pre Settlement,Planulae,NF,4.69E-01,1.5IQR Outlier
+16,Respiration Rate,Pre Settlement,Planulae,HF,4.44E-01,1.5IQR Outlier
+17,Respiration Rate,Pre Settlement,Planulae,HF,3.46E+00,1.5IQR Outlier
+18,Respiration Rate,Pre Settlement,Planulae,HF,2.91E+00,1.5IQR Outlier
+19,Respiration Rate,Pre Settlement,Planulae,NF,3.62E+00,1.5IQR Outlier
+20,Protein Density,Pre Settlement,Planulae,HF,4.68E+01,1.5IQR Outlier
+21,Protein Density,Pre Settlement,Planulae,HF,4.69E+01,1.5IQR Outlier
+22,Symbiont Density,Pre Settlement,Planulae,HF,2.47E+09,1.5IQR Outlier
+23,Symbiont Density,Pre Settlement,Planulae,HF,1.63E+09,1.5IQR Outlier
+24,Symbiont Density,Pre Settlement,Planulae,NF,4.07E+08,1.5IQR Outlier
+25,Settlement,Post Settlement,Ambient,HF,0,1.5IQR Outlier
+26,Respiration,Post Settlement,Ambient,NF,5.267694997,1.5IQR Outlier
+27,Respiration,Post Settlement,Ambient,NF,4.2142,1.5IQR Outlier
+28,Respiration,Post Settlement,Ambient,NF,3.014369385,1.5IQR Outlier
+29,Respiration,Post Settlement,Ambient,NF,2.622935585,1.5IQR Outlier
+30,Respiration,Post Settlement,Ambient,HF,0.886746685,1.5IQR Outlier
+31,Respiration,Post Settlement,Ambient,HF,0.863780284,1.5IQR Outlier
+32,Respiration,Post Settlement,Ambient,NF,0.127,1.5IQR Outlier
+33,Respiration,Post Settlement,pH 7.6,HF,2.552004154,1.5IQR Outlier
+34,Respiration,Post Settlement,pH 7.6,NF,2.153453888,1.5IQR Outlier
+35,Respiration,Post Settlement,pH 7.6,HF,2.149815012,1.5IQR Outlier
+36,Respiration,Post Settlement,pH 7.6,HF,2.041603323,1.5IQR Outlier
+37,Respiration,Post Settlement,pH 7.8,HF,2.359947414,1.5IQR Outlier
+38,Respiration,Post Settlement,pH 7.8,HF,0.647195833,1.5IQR Outlier
+39,Respiration,Post Settlement,pH 7.8,HF,0.618003506,1.5IQR Outlier
+40,Respiration,Post Settlement,pH 7.8,HF,1.887957931,1.5IQR Outlier
+41,Respiration,Post Settlement,32째C,HF,0.898,1.5IQR Outlier
+42,Respiration,Post Settlement,32째C,NF,0.8935,1.5IQR Outlier
+43,Respiration,Post Settlement,32째C,NF,0.3695,1.5IQR Outlier
+44,Respiration,Post Settlement,Dark,NF,3.1079,1.5IQR Outlier
+45,Respiration,Post Settlement,50m,HF,0.2401,1.5IQR Outlier
+46,Symbiont Density,Post Settlement,Dark,HF,0.016908213,1.5IQR Outlier
+47,Symbiont Density,Post Settlement,Ambient,HF,0.041893998,1.5IQR Outlier
+48,FvFm,Post Settlement,27캜,HF,0.095,1.5IQR Outlier
+49,FvFm,Post Settlement,27캜,HF,0.103,1.5IQR Outlier
+50,FvFm,Post Settlement,27캜,HF,0.103,1.5IQR Outlier
+51,FvFm,Post Settlement,27캜,HF,0.103,1.5IQR Outlier
+52,FvFm,Post Settlement,32캜,HF,0.095,1.5IQR Outlier
+53,FvFm,Post Settlement,32캜,HF,0.103,1.5IQR Outlier
+54,FvFm,Post Settlement,32캜,HF,0.103,1.5IQR Outlier
+55,FvFm,Post Settlement,32캜,HF,0.103,1.5IQR Outlier
+56,FvFm,Post Settlement,50m,NF,0.175,1.5IQR Outlier
+57,FvFm,Post Settlement,50m,NF,0.462,1.5IQR Outlier
+58,FvFm,Post Settlement,50m,NF,0.462,1.5IQR Outlier
+59,FvFm,Post Settlement,50m,NF,0.462,1.5IQR Outlier
+60,FvFm,Post Settlement,50m,NF,0.222,1.5IQR Outlier
+61,FvFm,Post Settlement,Ambient,HF,0.103,1.5IQR Outlier
+62,FvFm,Post Settlement,Ambient,HF,0.103,1.5IQR Outlier
+63,FvFm,Post Settlement,Ambient,HF,0.103,1.5IQR Outlier
+64,FvFm,Post Settlement,Dark,NF,0.175,1.5IQR Outlier
+65,FvFm,Post Settlement,Dark,NF,0.462,1.5IQR Outlier
+66,FvFm,Post Settlement,Dark,NF,0.462,1.5IQR Outlier
+67,FvFm,Post Settlement,Dark,NF,0.462,1.5IQR Outlier
+68,FvFm,Post Settlement,Dark,NF,0.222,1.5IQR Outlier
+69,FvFm,Post Settlement,pH 7.6,HF,0.103,1.5IQR Outlier
+70,FvFm,Post Settlement,pH 7.6,HF,0.103,1.5IQR Outlier
+71,FvFm,Post Settlement,pH 7.6,HF,0.103,1.5IQR Outlier
+72,FvFm,Post Settlement,pH 7.6,NF,0.188,1.5IQR Outlier
+73,FvFm,Post Settlement,pH 7.6,NF,0.232,1.5IQR Outlier
+74,FvFm,Post Settlement,pH 7.6,NF,0.462,1.5IQR Outlier
+75,FvFm,Post Settlement,pH 7.6,NF,0.462,1.5IQR Outlier
+76,FvFm,Post Settlement,pH 7.6,NF,0.462,1.5IQR Outlier
+77,FvFm,Post Settlement,pH 7.8,HF,0.103,1.5IQR Outlier
+78,FvFm,Post Settlement,pH 7.8,HF,0.103,1.5IQR Outlier
+79,FvFm,Post Settlement,pH 7.8,HF,0.103,1.5IQR Outlier
+80,FvFm,Post Settlement,pH 7.8,NF,0.188,1.5IQR Outlier
+81,FvFm,Post Settlement,pH 7.8,NF,0.232,1.5IQR Outlier
+82,FvFm,Post Settlement,pH 7.8,NF,0.462,1.5IQR Outlier
+83,FvFm,Post Settlement,pH 7.8,NF,0.462,1.5IQR Outlier
+84,FvFm,Post Settlement,pH 7.8,NF,0.462,1.5IQR Outlier
+85,Fm,Post Settlement,27캜,NF,22.7,1.5IQR Outlier
+86,Fm,Post Settlement,27캜,NF,26.1,1.5IQR Outlier
+87,Fm,Post Settlement,32캜,NF,22.7,1.5IQR Outlier
+88,Fm,Post Settlement,32캜,NF,26.1,1.5IQR Outlier
+89,Fm,Post Settlement,50m,NF,17.8,1.5IQR Outlier
+90,Fm,Post Settlement,50m,NF,17.3,1.5IQR Outlier
+91,Fm,Post Settlement,Ambient,HF,20.9,1.5IQR Outlier
+92,Fm,Post Settlement,Ambient,HF,20.9,1.5IQR Outlier
+93,Fm,Post Settlement,Ambient,HF,20.9,1.5IQR Outlier
+94,Fm,Post Settlement,Dark,NF,17.8,1.5IQR Outlier
+95,Fm,Post Settlement,Dark,NF,17.3,1.5IQR Outlier
+96,Fm,Post Settlement,pH 7.6,HF,24,1.5IQR Outlier
+97,Fm,Post Settlement,pH 7.6,HF,25.2,1.5IQR Outlier
+98,Fm,Post Settlement,pH 7.6,NF,17,1.5IQR Outlier
+99,Fm,Post Settlement,pH 7.6,NF,18.3,1.5IQR Outlier
+100,Fm,Post Settlement,pH 7.8,HF,24,1.5IQR Outlier
+101,Fm,Post Settlement,pH 7.8,HF,25.2,1.5IQR Outlier
+102,Fm,Post Settlement,pH 7.8,NF,17,1.5IQR Outlier
+103,Fm,Post Settlement,pH 7.8,NF,18.3,1.5IQR Outlier
+104,Sigma,Post Settlement,27캜,HF,918.5,1.5IQR Outlier
+105,Sigma,Post Settlement,27캜,HF,918.5,1.5IQR Outlier
+106,Sigma,Post Settlement,27캜,HF,918.5,1.5IQR Outlier
+107,Sigma,Post Settlement,27캜,NF,707.6,1.5IQR Outlier
+108,Sigma,Post Settlement,32캜,HF,918.5,1.5IQR Outlier
+109,Sigma,Post Settlement,32캜,HF,918.5,1.5IQR Outlier
+110,Sigma,Post Settlement,32캜,HF,918.5,1.5IQR Outlier
+111,Sigma,Post Settlement,32캜,NF,707.6,1.5IQR Outlier
+112,Sigma,Post Settlement,50m,HF,1014.7,1.5IQR Outlier
+113,Sigma,Post Settlement,50m,HF,1305.8,1.5IQR Outlier
+114,Sigma,Post Settlement,50m,HF,918.5,1.5IQR Outlier
+115,Sigma,Post Settlement,50m,HF,918.5,1.5IQR Outlier
+116,Sigma,Post Settlement,50m,HF,918.5,1.5IQR Outlier
+117,Sigma,Post Settlement,50m,HF,1030.6,1.5IQR Outlier
+118,Sigma,Post Settlement,50m,NF,506.8,1.5IQR Outlier
+119,Sigma,Post Settlement,50m,NF,682.3,1.5IQR Outlier
+120,Sigma,Post Settlement,Ambient,HF,918.5,1.5IQR Outlier
+121,Sigma,Post Settlement,Ambient,HF,918.5,1.5IQR Outlier
+122,Sigma,Post Settlement,Ambient,HF,918.5,1.5IQR Outlier
+123,Sigma,Post Settlement,Dark,HF,1014.7,1.5IQR Outlier
+124,Sigma,Post Settlement,Dark,HF,1305.8,1.5IQR Outlier
+125,Sigma,Post Settlement,Dark,HF,918.5,1.5IQR Outlier
+126,Sigma,Post Settlement,Dark,HF,918.5,1.5IQR Outlier
+127,Sigma,Post Settlement,Dark,HF,918.5,1.5IQR Outlier
+128,Sigma,Post Settlement,Dark,HF,1030.6,1.5IQR Outlier
+129,Sigma,Post Settlement,Dark,NF,506.8,1.5IQR Outlier
+130,Sigma,Post Settlement,Dark,NF,682.3,1.5IQR Outlier
+131,Sigma,Post Settlement,pH 7.6,HF,918.5,1.5IQR Outlier
+132,Sigma,Post Settlement,pH 7.6,HF,918.5,1.5IQR Outlier
+133,Sigma,Post Settlement,pH 7.6,HF,918.5,1.5IQR Outlier
+134,Sigma,Post Settlement,pH 7.8,HF,918.5,1.5IQR Outlier
+135,Sigma,Post Settlement,pH 7.8,HF,918.5,1.5IQR Outlier
+136,Sigma,Post Settlement,pH 7.8,HF,918.5,1.5IQR Outlier
