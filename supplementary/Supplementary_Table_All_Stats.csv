@@ -1,11 +1,11 @@
 Metric,Condition,HF_Value,NF_Value,N_HF,N_NF,p_value,Sig,Test_Used
-Settlement (%),Ambient,45.3571,35.2381,28,21,0.092617644,ns,Mann-Whitney U
-Settlement (%),27°C,36.6667,35.7143,9,7,0.947606785,ns,Independent T-test
-Settlement (%),32°C,22,18.5714,10,7,1,ns,Mann-Whitney U
-Settlement (%),pH 7.8,48,26,5,5,0.110175458,ns,Independent T-test
-Settlement (%),pH 7.6,42,20,5,5,0.076415596,ns,Mann-Whitney U
-Settlement (%),50m,56.6667,43.3333,6,6,0.686838219,ns,Mann-Whitney U
-Settlement (%),Dark,28.3333,35,6,6,0.459148143,ns,Mann-Whitney U
+Settlement (%),Ambient,45.3571,35.2381,28,21,0.09261764410490984,ns,Mann-Whitney U
+Settlement (%),27°C,36.6667,35.7143,9,7,0.9476067854386397,ns,Independent T-test
+Settlement (%),32°C,22.0,18.5714,10,7,1.0,ns,Mann-Whitney U
+Settlement (%),pH 7.8,48.0,26.0,5,5,0.11017545777300497,ns,Independent T-test
+Settlement (%),pH 7.6,42.0,20.0,5,5,0.07641559648919974,ns,Mann-Whitney U
+Settlement (%),50m,56.6667,43.3333,6,6,0.6868382188662738,ns,Mann-Whitney U
+Settlement (%),Dark,28.3333,35.0,6,6,0.4591481427617,ns,Mann-Whitney U
 Respiration (nmol/mm3/min),Ambient,0.771,0.6869,84,45,0.2366,ns,Mann-Whitney U
 Respiration (nmol/mm3/min),27°C,0.2752,0.2159,28,25,0.2891,ns,Mann-Whitney U
 Respiration (nmol/mm3/min),32°C,0.1927,0.0467,9,7,0.0283,*,Independent T-test
@@ -13,17 +13,17 @@ Respiration (nmol/mm3/min),pH 7.8,0.5525,1.025,24,18,0.0006,***,Independent T-te
 Respiration (nmol/mm3/min),pH 7.6,1.3122,1.0781,25,13,0.1336,ns,Independent T-test
 Respiration (nmol/mm3/min),50m,0.6417,0.2834,18,10,0.042,*,Independent T-test
 Respiration (nmol/mm3/min),Dark,0.4786,0.4242,10,8,0.7147,ns,Independent T-test
-Symbiont Density (cells/um2),Ambient,0.019,0.0191,16,11,0.963920636,ns,T-test
-Symbiont Density (cells/um2),27°C,0.0296,0.0291,7,8,0.950492068,ns,T-test
-Symbiont Density (cells/um2),32°C,0.0112,0.0097,3,4,0.614467888,ns,T-test
-Symbiont Density (cells/um2),pH 7.8,0.0504,0.0434,5,3,0.748509933,ns,T-test
-Symbiont Density (cells/um2),pH 7.6,0.0264,0.0355,4,2,1,ns,Insufficient N
-Symbiont Density (cells/um2),50m,0.0123,0.0101,7,5,0.430498182,ns,T-test
-Symbiont Density (cells/um2),Dark,0.0061,0.0106,3,4,0.377951364,ns,T-test
-Protein Density (ug/mm2),Ambient,7.267,16.4665,14,13,0.024041439,*,Mann-Whitney
-Protein Density (ug/mm2),27°C,8.2364,5.7545,8,7,0.1773468,ns,T-test
-Protein Density (ug/mm2),32°C,10.8254,6.4058,5,3,0.397961995,ns,T-test
-Protein Density (ug/mm2),pH 7.8,9.3681,9.7811,5,3,0.879789972,ns,T-test
+Symbiont Density (cells/um2),Ambient,0.019,0.0191,16,11,0.9639206358811307,ns,T-test
+Symbiont Density (cells/um2),27°C,0.0296,0.0291,7,8,0.9504920676004691,ns,T-test
+Symbiont Density (cells/um2),32°C,0.0112,0.0097,3,4,0.6144678878812435,ns,T-test
+Symbiont Density (cells/um2),pH 7.8,0.0504,0.0434,5,3,0.7485099332594943,ns,T-test
+Symbiont Density (cells/um2),pH 7.6,0.0264,0.0355,4,2,1.0,ns,Insufficient N
+Symbiont Density (cells/um2),50m,0.0123,0.0101,7,5,0.4304981819077708,ns,T-test
+Symbiont Density (cells/um2),Dark,0.0061,0.0106,3,4,0.3779513641768224,ns,T-test
+Protein Density (ug/mm2),Ambient,7.267,16.4665,14,13,0.024041438830608542,*,Mann-Whitney
+Protein Density (ug/mm2),27°C,8.2364,5.7545,8,7,0.17734680033506925,ns,T-test
+Protein Density (ug/mm2),32°C,10.8254,6.4058,5,3,0.3979619948755045,ns,T-test
+Protein Density (ug/mm2),pH 7.8,9.3681,9.7811,5,3,0.8797899719436998,ns,T-test
 Protein Density (ug/mm2),pH 7.6,9.0151,8.648,4,2,0.8,ns,Mann-Whitney
-Protein Density (ug/mm2),50m,13.9731,13.4461,7,5,0.926049167,ns,T-test
-Protein Density (ug/mm2),Dark,11.2754,10.1788,4,4,0.885714286,ns,Mann-Whitney
+Protein Density (ug/mm2),50m,13.9731,13.4461,7,5,0.9260491668693879,ns,T-test
+Protein Density (ug/mm2),Dark,11.2754,10.1788,4,4,0.8857142857142857,ns,Mann-Whitney
