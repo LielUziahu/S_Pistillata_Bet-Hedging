@@ -1,3 +1,5 @@
+"Supplementary Table 5. Comprehensive summary of outlier assessment and data exclusions across all pre-settlement and post-settlement physiological, morphometric, and photosynthetic assays. The table details the index, measured metric, experimental developmental stage (Pre-Settlement or Post-Settlement), treatment condition, larval morphotype (High-Fluorescent [HF] or Non-Fluorescent [NF]), exact measured value, and the specific exclusion criteria applied.",,,,,,
+,,,,,,
 index,Metric,stage,Treatment,Morph,Value,Reason
 1,Lipid Mobilization Index,Pre Settlement,Planulae,HF,0.3546,1.5IQR Outlier
 2,Lipid Mobilization Index,Pre Settlement,Planulae,NF,0.4319,1.5IQR Outlier
