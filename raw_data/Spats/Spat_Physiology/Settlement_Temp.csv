@@ -1,4 +1,4 @@
-ChamberNo,Temp,pH,Light,fluorescense level,Planula start number,Settled,setteled %,Dead %
+ChamberNo,Temp,pH,Light,fluorescense level,Planula start number,Settled,setteled %,Unsettled %
 G,23,8.2,10m,High fluorescense ,20,15,75,25
 H,23,8.2,10m,High fluorescense ,20,10,50,50
 I,23,8.2,10m,High fluorescense ,10,3,30,70
